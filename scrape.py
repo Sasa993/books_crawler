@@ -4,6 +4,7 @@ import requests, datetime, json
 now = datetime.datetime.now().date()
 
 book_counter = 0
+books_list = {}
 
 # Python doesn't have a switch-case statement, therefore, I had to create a custom swtich-case function
 def switch_month(x):
@@ -36,33 +37,28 @@ def send_notification_via_pushbullet(title, body):
     if resp.status_code != 200:
         raise Exception('Something wrong')
     else:
-        print ('complete sending')
+        print ('Sent.')
 
 source = requests.get('https://megasrbija.com/index.php?board=89.0').text
-
 soup = BeautifulSoup(source, 'lxml')
-
-lista_knjiga = {}
 
 start = soup.find("div", {"id": "messageindex"}).table.tbody
 
 for knjiga in start.find_all("tr")[7:]:
 	lastpost = knjiga.find("td", class_="lastpost windowbg2").text
 	# slicing it to get a date format "year-month-day" so that I could compare it with today's date
-	datum_objave = str(now.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
+	published_date = str(now.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
 
-	if (datum_objave == str(now)):
-		naslov = knjiga.find("td", class_="subject windowbg2").div.span.a.text
-		vrijeme_objave = lastpost.split()[3]
+	if (published_date == str(now)):
+		title = knjiga.find("td", class_="subject windowbg2").div.span.a.text
+		published_time = lastpost.split()[3]
 		link = knjiga.find("td", class_="subject windowbg2").div.span.a['href']
 
-		print(link)
-
-		lista_knjiga[book_counter] = {}
-		lista_knjiga[book_counter]['naslov'] = naslov
-		lista_knjiga[book_counter]['datum_objave'] = datum_objave
-		lista_knjiga[book_counter]['vrijeme_objave'] = vrijeme_objave
-		lista_knjiga[book_counter]['link'] = link
+		books_list[book_counter] = {}
+		books_list[book_counter]['title'] = title
+		books_list[book_counter]['published_date'] = published_date
+		books_list[book_counter]['published_time'] = published_time
+		books_list[book_counter]['link'] = link
 
 		book_counter += 1
 	else:
@@ -71,6 +67,6 @@ for knjiga in start.find_all("tr")[7:]:
 final_message = ""
 
 for x in range(book_counter):
-	final_message += "Book Title: {0} -- uploaded on {1} at {2} ({3}) \n".format(lista_knjiga[x]['naslov'], lista_knjiga[x]['datum_objave'], lista_knjiga[x]['vrijeme_objave'], lista_knjiga[x]['link'])
+	final_message += "Book Title: {0} -- uploaded on {1} at {2} ({3}) \n".format(books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
 
 send_notification_via_pushbullet("There are {0} new audio books added today!".format(book_counter), final_message)
