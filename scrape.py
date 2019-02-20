@@ -36,8 +36,6 @@ def send_notification_via_pushbullet(title, body):
                          headers={'Authorization': 'Bearer ' + ACCESS_TOKEN, 'Content-Type': 'application/json'})
     if resp.status_code != 200:
         raise Exception('Something wrong')
-    else:
-        print ('Sent.')
 
 source = requests.get('https://megasrbija.com/index.php?board=89.0').text
 soup = BeautifulSoup(source, 'lxml')
@@ -66,7 +64,8 @@ for knjiga in start.find_all("tr")[7:]:
 
 final_message = ""
 
-for x in range(book_counter):
-	final_message += "Book Title: {0} -- uploaded on {1} at {2} ({3}) \n".format(books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
+if (book_counter > 0):
+	for x in range(book_counter):
+		final_message += "Book Title: {0} -- uploaded on {1} at {2} ({3}) \n".format(books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
 
-send_notification_via_pushbullet("There are {0} new audio books added today!".format(book_counter), final_message)
+	send_notification_via_pushbullet("There are {0} new audio books added today!".format(book_counter), final_message)
