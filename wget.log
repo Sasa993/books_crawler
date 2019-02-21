@@ -1,0 +1,2716 @@
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:10--  http://mania.marketing/
+Resolving mania.marketing (mania.marketing)... 91.234.46.71
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/ [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:12--  https://mania.marketing/
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 72247 (71K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:14--  https://mania.marketing/
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 72247 (71K) [text/html]
+Saving to: ‘mania.marketing/index.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 70%  613K 0s
+    50K .......... ..........                                 100% 4,67M=0,09s
+
+2019-02-21 14:54:14 (822 KB/s) - ‘mania.marketing/index.html.tmp.tmp’ saved [72247/72247]
+
+Removing mania.marketing/index.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:15--  http://mania.marketing/images/custom/icons/mania76x76.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/images/custom/icons/mania76x76.png [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:16--  https://mania.marketing/images/custom/icons/mania76x76.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 425 [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/icons/mania76x76.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:17--  http://mania.marketing/images/custom/icons/mania114x114.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/images/custom/icons/mania114x114.png [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:19--  https://mania.marketing/images/custom/icons/mania114x114.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 642 [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/icons/mania114x114.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:20--  http://mania.marketing/images/custom/icons/mania120x120.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/images/custom/icons/mania120x120.png [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:21--  https://mania.marketing/images/custom/icons/mania120x120.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 690 [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/icons/mania120x120.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:22--  http://mania.marketing/images/custom/icons/mania144x144.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/images/custom/icons/mania144x144.png [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:24--  https://mania.marketing/images/custom/icons/mania144x144.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 733 [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/icons/mania144x144.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:25--  http://mania.marketing/images/custom/icons/mania152x152.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/images/custom/icons/mania152x152.png [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:26--  https://mania.marketing/images/custom/icons/mania152x152.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 755 [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/icons/mania152x152.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:27--  http://mania.marketing/images/custom/icons/mania180x180.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mania.marketing/images/custom/icons/mania180x180.png [following]
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:28--  https://mania.marketing/images/custom/icons/mania180x180.png
+Connecting to mania.marketing (mania.marketing)|91.234.46.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 942 [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/icons/mania180x180.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:30--  https://mania.marketing/images/custom/favicon.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 15699 (15K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/favicon.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:31--  https://mania.marketing/css/bootstrap.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 102927 (101K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/bootstrap.css.tmp: No such file or directory
+Removing mania.marketing/css/bootstrap.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:32--  https://mania.marketing/all-swiper-dark.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 238293 (233K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/all-swiper-dark.css.tmp: No such file or directory
+Removing mania.marketing/all-swiper-dark.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:33--  https://mania.marketing/css/font-icons-unused.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1828 (1,8K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/font-icons-unused.css.tmp: No such file or directory
+Removing mania.marketing/css/font-icons-unused.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:34--  https://mania.marketing/css/all-custom.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 62641 (61K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/all-custom.css.tmp: No such file or directory
+Removing mania.marketing/css/all-custom.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:35--  https://mania.marketing/css/responsive.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 66144 (65K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/responsive.css.tmp: No such file or directory
+Removing mania.marketing/css/responsive.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:36--  https://mania.marketing/include/rs-plugin/css/all-plugin.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 69904 (68K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/include/rs-plugin/css/all-plugin.css.tmp: No such file or directory
+Removing mania.marketing/include/rs-plugin/css/all-plugin.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:38--  https://mania.marketing/images/custom/dummy.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 404 Not Found
+Remote file does not exist -- broken link!!!
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:39--  https://mania.marketing/images/custom/cloud1.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 62750 (61K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/cloud1.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:40--  https://mania.marketing/images/custom/cloud2.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 66094 (65K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/cloud2.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:41--  https://mania.marketing/index-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 76440 (75K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:42--  https://mania.marketing/index-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 76440 (75K) [text/html]
+Saving to: ‘mania.marketing/index-en.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 66%  606K 0s
+    50K .......... .......... ....                            100% 3,44M=0,09s
+
+2019-02-21 14:54:42 (834 KB/s) - ‘mania.marketing/index-en.html.tmp.tmp’ saved [76440/76440]
+
+Removing mania.marketing/index-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:43--  https://mania.marketing/index-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 76520 (75K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:44--  https://mania.marketing/index-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 76520 (75K) [text/html]
+Saving to: ‘mania.marketing/index-de.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 66%  614K 0s
+    50K .......... .......... ....                            100% 3,38M=0,09s
+
+2019-02-21 14:54:45 (844 KB/s) - ‘mania.marketing/index-de.html.tmp.tmp’ saved [76520/76520]
+
+Removing mania.marketing/index-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:46--  https://mania.marketing/marketing.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 67854 (66K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:47--  https://mania.marketing/marketing.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 67854 (66K) [text/html]
+Saving to: ‘mania.marketing/marketing.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 75%  603K 0s
+    50K .......... ......                                     100% 16,8M=0,08s
+
+2019-02-21 14:54:47 (790 KB/s) - ‘mania.marketing/marketing.html.tmp.tmp’ saved [67854/67854]
+
+Removing mania.marketing/marketing.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:48--  https://mania.marketing/video.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52611 (51K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:49--  https://mania.marketing/video.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52611 (51K) [text/html]
+Saving to: ‘mania.marketing/video.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 97%  641K 0s
+    50K .                                                     100% 2628G=0,08s
+
+2019-02-21 14:54:49 (658 KB/s) - ‘mania.marketing/video.html.tmp.tmp’ saved [52611/52611]
+
+Removing mania.marketing/video.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:50--  https://mania.marketing/web-dizajn.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40197 (39K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:51--  https://mania.marketing/web-dizajn.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40197 (39K) [text/html]
+Saving to: ‘mania.marketing/web-dizajn.html.tmp.tmp’
+
+     0K .......... .......... .......... .........            100% 2,51M=0,02s
+
+2019-02-21 14:54:52 (2,51 MB/s) - ‘mania.marketing/web-dizajn.html.tmp.tmp’ saved [40197/40197]
+
+Removing mania.marketing/web-dizajn.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:53--  https://mania.marketing/fotografija.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 208210 (203K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:54--  https://mania.marketing/fotografija.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 208210 (203K) [text/html]
+Saving to: ‘mania.marketing/fotografija.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 24%  607K 0s
+    50K .......... .......... .......... .......... .......... 49%  708K 0s
+   100K .......... .......... .......... .......... .......... 73% 1,83M 0s
+   150K .......... .......... .......... .......... .......... 98% 1,76M 0s
+   200K ...                                                   100% 26,4M=0,2s
+
+2019-02-21 14:54:54 (979 KB/s) - ‘mania.marketing/fotografija.html.tmp.tmp’ saved [208210/208210]
+
+Removing mania.marketing/fotografija.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:55--  https://mania.marketing/graficki-dizajn.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55622 (54K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:54:56--  https://mania.marketing/graficki-dizajn.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55622 (54K) [text/html]
+Saving to: ‘mania.marketing/graficki-dizajn.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 92%  633K 0s
+    50K ....                                                  100% 8237G=0,08s
+
+2019-02-21 14:54:56 (688 KB/s) - ‘mania.marketing/graficki-dizajn.html.tmp.tmp’ saved [55622/55622]
+
+Removing mania.marketing/graficki-dizajn.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:57--  https://mania.marketing/images/custom/rijeci.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 127307 (124K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:54:59--  https://mania.marketing/images/custom/rijeci-marketing.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 143590 (140K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-marketing.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:00--  https://mania.marketing/images/custom/rijeci-video.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 144038 (141K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-video.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:01--  https://mania.marketing/images/custom/rijeci-web.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 144434 (141K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-web.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:02--  https://mania.marketing/images/custom/rijeci-foto.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 145367 (142K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-foto.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:03--  https://mania.marketing/images/custom/rijeci-dizajn.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 147676 (144K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-dizajn.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:04--  https://mania.marketing/index.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 72247 (71K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:55:05--  https://mania.marketing/index.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 72247 (71K) [text/html]
+Saving to: ‘mania.marketing/index.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 70%  537K 0s
+    50K .......... ..........                                 100% 8,30M=0,1s
+
+2019-02-21 14:55:06 (739 KB/s) - ‘mania.marketing/index.html.tmp.tmp’ saved [72247/72247]
+
+Removing mania.marketing/index.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:07--  https://mania.marketing/images/custom/mania-logoo.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1206 (1,2K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/mania-logoo.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:08--  https://mania.marketing/images/custom/mania-logo@2x.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1347 (1,3K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/mania-logo@2x.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:09--  https://mania.marketing/images/custom/danijel-tepsic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39044 (38K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/danijel-tepsic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:10--  https://mania.marketing/images/custom/dajan-javorac.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 41143 (40K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/dajan-javorac.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:11--  https://mania.marketing/images/custom/srdjan-sipka.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45750 (45K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/srdjan-sipka.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:12--  https://mania.marketing/images/custom/jovica-miric.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40958 (40K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/jovica-miric.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:13--  https://mania.marketing/images/custom/marinela-todorovic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 177088 (173K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/marinela-todorovic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:14--  https://mania.marketing/images/custom/goran-vukalovic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45075 (44K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/goran-vukalovic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:15--  https://mania.marketing/images/custom/sasa-tepsic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 177581 (173K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/sasa-tepsic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:16--  https://mania.marketing/images/custom/mirjana-jukic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 65004 (63K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/mirjana-jukic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:18--  https://mania.marketing/images/custom/dejan-cebedzija.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 56513 (55K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/dejan-cebedzija.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:19--  https://mania.marketing/images/custom/boris-petkovic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 184376 (180K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/boris-petkovic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:20--  https://mania.marketing/images/custom/branislav-slijepcevic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 211924 (207K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/branislav-slijepcevic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:21--  https://mania.marketing/images/custom/bojan-bursac.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 56713 (55K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/bojan-bursac.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:22--  https://mania.marketing/images/custom/milan-antonic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 57030 (56K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/milan-antonic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:23--  https://mania.marketing/images/custom/ognjen-sipka.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 44773 (44K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/ognjen-sipka.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:24--  https://mania.marketing/images/custom/mirko-novakovic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 162491 (159K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/mirko-novakovic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:25--  https://mania.marketing/images/custom/jaglika-jovanovic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 223850 (219K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/jaglika-jovanovic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:26--  https://mania.marketing/images/custom/simo-iljic.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 189841 (185K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/simo-iljic.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:27--  https://mania.marketing/images/custom/klijenti/klijent_logo1.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6076 (5,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo1.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:29--  https://mania.marketing/images/custom/klijenti/klijent_logo2.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2920 (2,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo2.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:30--  https://mania.marketing/images/custom/klijenti/klijent_logo3.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1594 (1,6K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo3.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:31--  https://mania.marketing/images/custom/klijenti/klijent_logo4.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4489 (4,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo4.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:32--  https://mania.marketing/images/custom/klijenti/klijent_logo5.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2171 (2,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo5.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:33--  https://mania.marketing/images/custom/klijenti/klijent_logo6.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1886 (1,8K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo6.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:34--  https://mania.marketing/images/custom/klijenti/centrotrans.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14630 (14K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/centrotrans.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:35--  https://mania.marketing/images/custom/klijenti/klijent_logo9.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3568 (3,5K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo9.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:36--  https://mania.marketing/images/custom/klijenti/klijent_logo51.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24633 (24K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo51.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:37--  https://mania.marketing/images/custom/klijenti/klijent_logo8.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7502 (7,3K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo8.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:38--  https://mania.marketing/images/custom/klijenti/klijent_logo53.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21500 (21K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo53.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:40--  https://mania.marketing/images/custom/klijenti/klijent_logo38.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22892 (22K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo38.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:41--  https://mania.marketing/images/custom/klijenti/klijent_logo44.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21109 (21K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo44.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:42--  https://mania.marketing/images/custom/klijenti/klijent_logo47.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25010 (24K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo47.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:43--  https://mania.marketing/images/custom/klijenti/klijent_logo39.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20567 (20K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo39.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:44--  https://mania.marketing/images/custom/klijenti/klijent_logo50.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25925 (25K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo50.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:45--  https://mania.marketing/images/custom/klijenti/klijent_logo49.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5482 (5,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo49.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:46--  https://mania.marketing/images/custom/klijenti/klijent_logo23.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2347 (2,3K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo23.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:47--  https://mania.marketing/images/custom/klijenti/klijent_logo46.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25800 (25K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo46.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:49--  https://mania.marketing/images/custom/klijenti/klijent_logo13.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2611 (2,5K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo13.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:50--  https://mania.marketing/images/custom/klijenti/klijent_logo10.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3784 (3,7K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo10.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:51--  https://mania.marketing/images/custom/klijenti/klijent_logo14.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1919 (1,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo14.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:52--  https://mania.marketing/images/custom/klijenti/klijent_logo16.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2104 (2,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo16.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:53--  https://mania.marketing/images/custom/klijenti/klijent_logo17.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2430 (2,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo17.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:54--  https://mania.marketing/images/custom/klijenti/klijent_logo18.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2336 (2,3K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo18.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:55--  https://mania.marketing/images/custom/klijenti/klijent_logo21.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3982 (3,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo21.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:56--  https://mania.marketing/images/custom/klijenti/klijent_logo64.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 26142 (26K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo64.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:57--  https://mania.marketing/images/custom/klijenti/klijent_logo63.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22328 (22K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo63.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:55:58--  https://mania.marketing/images/custom/klijenti/klijent_logo62.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10133 (9,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo62.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:00--  https://mania.marketing/images/custom/klijenti/klijent_logo31.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4729 (4,6K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo31.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:01--  https://mania.marketing/images/custom/klijenti/klijent_logo32.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2530 (2,5K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo32.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:02--  https://mania.marketing/images/custom/klijenti/klijent_logo33.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3896 (3,8K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo33.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:03--  https://mania.marketing/images/custom/klijenti/klijent_logo60.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10123 (9,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo60.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:04--  https://mania.marketing/images/custom/klijenti/klijent_logo61.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13914 (14K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo61.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:05--  https://mania.marketing/images/custom/klijenti/klijent_logo36.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3505 (3,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo36.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:06--  https://mania.marketing/images/custom/klijenti/klijent_logo37.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12151 (12K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo37.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:07--  https://mania.marketing/images/custom/klijenti/klijent_logo40.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2494 (2,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo40.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:08--  https://mania.marketing/images/custom/klijenti/klijent_logo42.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3391 (3,3K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo42.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:09--  https://mania.marketing/images/custom/klijenti/klijent_logo48.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6231 (6,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo48.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:11--  https://mania.marketing/images/custom/klijenti/klijent_logo59.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14407 (14K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo59.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:12--  https://mania.marketing/images/custom/klijenti/klijent_logo54.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13177 (13K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo54.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:13--  https://mania.marketing/images/custom/klijenti/klijent_logo55.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 26052 (25K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo55.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:14--  https://mania.marketing/images/custom/klijenti/klijent_logo56.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5359 (5,2K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo56.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:15--  https://mania.marketing/images/custom/klijenti/klijent_logo57.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7035 (6,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo57.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:16--  https://mania.marketing/images/custom/klijenti/klijent_logo58.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4007 (3,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/klijenti/klijent_logo58.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:17--  https://mania.marketing/images/custom/nagrade/nagrada16.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17938 (18K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada16.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:18--  https://mania.marketing/images/custom/nagrade/nagrada.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4968 (4,9K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:19--  https://mania.marketing/images/custom/nagrade/nagrada4.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4586 (4,5K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada4.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:20--  https://mania.marketing/images/custom/nagrade/nagrada1.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4865 (4,8K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada1.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:21--  https://mania.marketing/images/custom/nagrade/nagrada7.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4937 (4,8K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada7.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:23--  https://mania.marketing/images/custom/nagrade/nagrada6.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4840 (4,7K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada6.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:24--  https://mania.marketing/images/custom/nagrade/nagrada5.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4845 (4,7K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada5.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:25--  https://mania.marketing/images/custom/nagrade/nagrada9.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4210 (4,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada9.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:26--  https://mania.marketing/images/custom/nagrade/nagrada12.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4493 (4,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada12.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:27--  https://mania.marketing/images/custom/nagrade/nagrada8.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4190 (4,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada8.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:28--  https://mania.marketing/images/custom/nagrade/nagrada3.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4900 (4,8K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada3.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:29--  https://mania.marketing/images/custom/nagrade/nagrada10.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4691 (4,6K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada10.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:30--  https://mania.marketing/images/custom/nagrade/nagrada11.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4738 (4,6K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada11.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:31--  https://mania.marketing/images/custom/nagrade/nagrada2.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4650 (4,5K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada2.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:32--  https://mania.marketing/images/custom/nagrade/nagrada13.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4155 (4,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada13.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:34--  https://mania.marketing/images/custom/nagrade/nagrada14.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4493 (4,4K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada14.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:35--  https://mania.marketing/images/custom/nagrade/nagrada15.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4155 (4,1K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/nagrade/nagrada15.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:36--  https://mania.marketing/images/custom/vijesti/mania-vijest3.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 84341 (82K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/vijesti/mania-vijest3.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:37--  https://mania.marketing/cannes-lion.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20912 (20K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:56:38--  https://mania.marketing/cannes-lion.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20912 (20K) [text/html]
+Saving to: ‘mania.marketing/cannes-lion.html.tmp.tmp’
+
+     0K .......... ..........                                 100% 5,11M=0,004s
+
+2019-02-21 14:56:38 (5,11 MB/s) - ‘mania.marketing/cannes-lion.html.tmp.tmp’ saved [20912/20912]
+
+Removing mania.marketing/cannes-lion.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:39--  https://mania.marketing/images/custom/vijesti/mania-vijest1.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 96514 (94K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/vijesti/mania-vijest1.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:40--  https://mania.marketing/viadinarica.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21686 (21K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:56:41--  https://mania.marketing/viadinarica.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21686 (21K) [text/html]
+Saving to: ‘mania.marketing/viadinarica.html.tmp.tmp’
+
+     0K .......... .......... .                               100% 12,4M=0,002s
+
+2019-02-21 14:56:41 (12,4 MB/s) - ‘mania.marketing/viadinarica.html.tmp.tmp’ saved [21686/21686]
+
+Removing mania.marketing/viadinarica.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:42--  https://mania.marketing/images/custom/vijesti/mania-vijest2.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52250 (51K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/vijesti/mania-vijest2.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:44--  https://mania.marketing/vrhunska-video-produkcija.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20498 (20K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:56:45--  https://mania.marketing/vrhunska-video-produkcija.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20498 (20K) [text/html]
+Saving to: ‘mania.marketing/vrhunska-video-produkcija.html.tmp.tmp’
+
+     0K .......... ..........                                 100% 7,30M=0,003s
+
+2019-02-21 14:56:45 (7,30 MB/s) - ‘mania.marketing/vrhunska-video-produkcija.html.tmp.tmp’ saved [20498/20498]
+
+Removing mania.marketing/vrhunska-video-produkcija.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:46--  https://mania.marketing/images/custom/mania-mailbox.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 127491 (125K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/mania-mailbox.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:47--  https://mania.marketing/images/custom/mania-office.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 214771 (210K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/mania-office.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:48--  https://mania.marketing/press-clipping.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22541 (22K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:56:49--  https://mania.marketing/press-clipping.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22541 (22K) [text/html]
+Saving to: ‘mania.marketing/press-clipping.html.tmp.tmp’
+
+     0K .......... .......... ..                              100% 6,08M=0,004s
+
+2019-02-21 14:56:49 (6,08 MB/s) - ‘mania.marketing/press-clipping.html.tmp.tmp’ saved [22541/22541]
+
+Removing mania.marketing/press-clipping.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:50--  https://mania.marketing/js/all-external.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 707279 (691K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/js/all-external.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:51--  https://mania.marketing/include/rs-plugin/js/all-jquery-themepunch.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 148631 (145K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/all-jquery-themepunch.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:52--  https://mania.marketing/include/rs-plugin/js/extensions/all-extensions.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 113454 (111K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/extensions/all-extensions.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:54--  https://mania.marketing/style.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 234239 (229K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/style.css.tmp: No such file or directory
+Removing mania.marketing/style.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:55--  https://mania.marketing/css/swiper.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17216 (17K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/swiper.css.tmp: No such file or directory
+Removing mania.marketing/css/swiper.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:56--  https://mania.marketing/css/dark.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54485 (53K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/dark.css.tmp: No such file or directory
+Removing mania.marketing/css/dark.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:57--  https://mania.marketing/css/font-icons.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 49098 (48K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/font-icons.css.tmp: No such file or directory
+Removing mania.marketing/css/font-icons.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:58--  https://mania.marketing/css/animate.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 67519 (66K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/animate.css.tmp: No such file or directory
+Removing mania.marketing/css/animate.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:56:59--  https://mania.marketing/css/magnific-popup.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6020 (5,9K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/magnific-popup.css.tmp: No such file or directory
+Removing mania.marketing/css/magnific-popup.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:00--  https://mania.marketing/custom-style.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1799 (1,8K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/custom-style.css.tmp: No such file or directory
+Removing mania.marketing/custom-style.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:01--  https://mania.marketing/css/custom-rijeci-style.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2376 (2,3K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/css/custom-rijeci-style.css.tmp: No such file or directory
+Removing mania.marketing/css/custom-rijeci-style.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:02--  https://mania.marketing/include/rs-plugin/css/settings.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28197 (28K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/include/rs-plugin/css/settings.css.tmp: No such file or directory
+Removing mania.marketing/include/rs-plugin/css/settings.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:04--  https://mania.marketing/include/rs-plugin/css/layers.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 97851 (96K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/include/rs-plugin/css/layers.css.tmp: No such file or directory
+Removing mania.marketing/include/rs-plugin/css/layers.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:05--  https://mania.marketing/include/rs-plugin/css/navigation.css
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45872 (45K) [text/css]
+Remote file exists but does not contain any link -- not retrieving.
+
+mania.marketing/include/rs-plugin/css/navigation.css.tmp: No such file or directory
+Removing mania.marketing/include/rs-plugin/css/navigation.css.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:06--  https://mania.marketing/marketing-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 69004 (67K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:07--  https://mania.marketing/marketing-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 69004 (67K) [text/html]
+Saving to: ‘mania.marketing/marketing-en.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 74%  611K 0s
+    50K .......... .......                                    100% 9,66M=0,08s
+
+2019-02-21 14:57:07 (806 KB/s) - ‘mania.marketing/marketing-en.html.tmp.tmp’ saved [69004/69004]
+
+Removing mania.marketing/marketing-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:08--  https://mania.marketing/video-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52823 (52K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:09--  https://mania.marketing/video-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52823 (52K) [text/html]
+Saving to: ‘mania.marketing/video-en.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 96%  689K 0s
+    50K .                                                     100% 3023G=0,07s
+
+2019-02-21 14:57:09 (711 KB/s) - ‘mania.marketing/video-en.html.tmp.tmp’ saved [52823/52823]
+
+Removing mania.marketing/video-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:10--  https://mania.marketing/web-design.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40249 (39K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:12--  https://mania.marketing/web-design.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40249 (39K) [text/html]
+Saving to: ‘mania.marketing/web-design.html.tmp.tmp’
+
+     0K .......... .......... .......... .........            100% 2,78M=0,01s
+
+2019-02-21 14:57:12 (2,78 MB/s) - ‘mania.marketing/web-design.html.tmp.tmp’ saved [40249/40249]
+
+Removing mania.marketing/web-design.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:13--  https://mania.marketing/photography.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 208218 (203K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:14--  https://mania.marketing/photography.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 208218 (203K) [text/html]
+Saving to: ‘mania.marketing/photography.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 24%  590K 0s
+    50K .......... .......... .......... .......... .......... 49%  770K 0s
+   100K .......... .......... .......... .......... .......... 73% 1,64M 0s
+   150K .......... .......... .......... .......... .......... 98%  515K 0s
+   200K ...                                                   100% 20,3M=0,3s
+
+2019-02-21 14:57:14 (735 KB/s) - ‘mania.marketing/photography.html.tmp.tmp’ saved [208218/208218]
+
+Removing mania.marketing/photography.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:15--  https://mania.marketing/graphic-design.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55576 (54K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:16--  https://mania.marketing/graphic-design.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55576 (54K) [text/html]
+Saving to: ‘mania.marketing/graphic-design.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 92%  656K 0s
+    50K ....                                                  100% 8151G=0,08s
+
+2019-02-21 14:57:17 (712 KB/s) - ‘mania.marketing/graphic-design.html.tmp.tmp’ saved [55576/55576]
+
+Removing mania.marketing/graphic-design.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:18--  https://mania.marketing/images/custom/rijeci-en.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 125611 (123K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-en.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:19--  https://mania.marketing/images/custom/rijeci-marketing-en.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 145835 (142K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-marketing-en.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:20--  https://mania.marketing/images/custom/rijeci-video-en.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 141372 (138K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-video-en.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:21--  https://mania.marketing/images/custom/rijeci-web-en.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 142634 (139K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-web-en.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:22--  https://mania.marketing/images/custom/rijeci-foto-en.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 141253 (138K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-foto-en.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:23--  https://mania.marketing/images/custom/rijeci-dizajn-en.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 145835 (142K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-dizajn-en.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:24--  https://mania.marketing/cannes-lion-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21166 (21K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:25--  https://mania.marketing/cannes-lion-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21166 (21K) [text/html]
+Saving to: ‘mania.marketing/cannes-lion-en.html.tmp.tmp’
+
+     0K .......... ..........                                 100% 7,71M=0,003s
+
+2019-02-21 14:57:26 (7,71 MB/s) - ‘mania.marketing/cannes-lion-en.html.tmp.tmp’ saved [21166/21166]
+
+Removing mania.marketing/cannes-lion-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:27--  https://mania.marketing/viadinarica-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20879 (20K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:28--  https://mania.marketing/viadinarica-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20879 (20K) [text/html]
+Saving to: ‘mania.marketing/viadinarica-en.html.tmp.tmp’
+
+     0K .......... ..........                                 100%  757K=0,03s
+
+2019-02-21 14:57:28 (757 KB/s) - ‘mania.marketing/viadinarica-en.html.tmp.tmp’ saved [20879/20879]
+
+Removing mania.marketing/viadinarica-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:29--  https://mania.marketing/vrhunska-video-produkcija-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20526 (20K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:30--  https://mania.marketing/vrhunska-video-produkcija-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20526 (20K) [text/html]
+Saving to: ‘mania.marketing/vrhunska-video-produkcija-en.html.tmp.tmp’
+
+     0K .......... ..........                                 100% 14,3M=0,001s
+
+2019-02-21 14:57:30 (14,3 MB/s) - ‘mania.marketing/vrhunska-video-produkcija-en.html.tmp.tmp’ saved [20526/20526]
+
+Removing mania.marketing/vrhunska-video-produkcija-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:31--  https://mania.marketing/press-clipping-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22536 (22K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:32--  https://mania.marketing/press-clipping-en.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22536 (22K) [text/html]
+Saving to: ‘mania.marketing/press-clipping-en.html.tmp.tmp’
+
+     0K .......... .......... ..                              100% 30,1M=0,001s
+
+2019-02-21 14:57:32 (30,1 MB/s) - ‘mania.marketing/press-clipping-en.html.tmp.tmp’ saved [22536/22536]
+
+Removing mania.marketing/press-clipping-en.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:33--  https://mania.marketing/js/jquery.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 95953 (94K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/js/jquery.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:34--  https://mania.marketing/js/plugins.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 561148 (548K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/js/plugins.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:36--  https://mania.marketing/js/functions.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 98757 (96K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/js/functions.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:37--  https://mania.marketing/include/rs-plugin/js/jquery.themepunch.tools.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 104628 (102K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/jquery.themepunch.tools.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:38--  https://mania.marketing/include/rs-plugin/js/jquery.themepunch.revolution.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 48501 (47K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/jquery.themepunch.revolution.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:39--  https://mania.marketing/include/rs-plugin/js/extensions/revolution.extension.video.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20797 (20K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/extensions/revolution.extension.video.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:40--  https://mania.marketing/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28122 (27K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:41--  https://mania.marketing/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 29933 (29K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:42--  https://mania.marketing/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24124 (24K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:43--  https://mania.marketing/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8550 (8,3K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:44--  https://mania.marketing/js/custom-functions.js
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3250 (3,2K) [application/javascript]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/js/custom-functions.js.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:45--  https://mania.marketing/marketing-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 73172 (71K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:47--  https://mania.marketing/marketing-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 73172 (71K) [text/html]
+Saving to: ‘mania.marketing/marketing-de.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 69%  612K 0s
+    50K .......... .......... .                               100% 4,27M=0,09s
+
+2019-02-21 14:57:47 (825 KB/s) - ‘mania.marketing/marketing-de.html.tmp.tmp’ saved [73172/73172]
+
+Removing mania.marketing/marketing-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:48--  https://mania.marketing/video-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52790 (52K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:49--  https://mania.marketing/video-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52790 (52K) [text/html]
+Saving to: ‘mania.marketing/video-de.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 96%  679K 0s
+    50K .                                                     100% 2962G=0,07s
+
+2019-02-21 14:57:49 (700 KB/s) - ‘mania.marketing/video-de.html.tmp.tmp’ saved [52790/52790]
+
+Removing mania.marketing/video-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:50--  https://mania.marketing/web-design-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39910 (39K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:51--  https://mania.marketing/web-design-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39910 (39K) [text/html]
+Saving to: ‘mania.marketing/web-design-de.html.tmp.tmp’
+
+     0K .......... .......... .......... ........             100% 2,84M=0,01s
+
+2019-02-21 14:57:52 (2,84 MB/s) - ‘mania.marketing/web-design-de.html.tmp.tmp’ saved [39910/39910]
+
+Removing mania.marketing/web-design-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:53--  https://mania.marketing/fotografie.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 208314 (203K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:54--  https://mania.marketing/fotografie.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 208314 (203K) [text/html]
+Saving to: ‘mania.marketing/fotografie.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 24%  609K 0s
+    50K .......... .......... .......... .......... .......... 49%  749K 0s
+   100K .......... .......... .......... .......... .......... 73% 1,68M 0s
+   150K .......... .......... .......... .......... .......... 98% 1,91M 0s
+   200K ...                                                   100% 29,1M=0,2s
+
+2019-02-21 14:57:54 (999 KB/s) - ‘mania.marketing/fotografie.html.tmp.tmp’ saved [208314/208314]
+
+Removing mania.marketing/fotografie.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:55--  https://mania.marketing/grafikdesign.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55769 (54K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:57:56--  https://mania.marketing/grafikdesign.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55769 (54K) [text/html]
+Saving to: ‘mania.marketing/grafikdesign.html.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 91%  660K 0s
+    50K ....                                                  100% 8510G=0,08s
+
+2019-02-21 14:57:56 (719 KB/s) - ‘mania.marketing/grafikdesign.html.tmp.tmp’ saved [55769/55769]
+
+Removing mania.marketing/grafikdesign.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:57--  https://mania.marketing/images/custom/rijeci-de.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 126540 (124K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-de.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:57:59--  https://mania.marketing/images/custom/rijeci-marketing-de.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 143471 (140K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-marketing-de.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:00--  https://mania.marketing/images/custom/rijeci-video-de.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 141320 (138K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-video-de.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:01--  https://mania.marketing/images/custom/rijeci-web-de.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 143998 (141K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-web-de.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:02--  https://mania.marketing/images/custom/rijeci-foto-de.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 141980 (139K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-foto-de.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:03--  https://mania.marketing/images/custom/rijeci-dizajn-de.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 148656 (145K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/rijeci-dizajn-de.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:04--  https://mania.marketing/cannes-lion-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21099 (21K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:58:05--  https://mania.marketing/cannes-lion-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21099 (21K) [text/html]
+Saving to: ‘mania.marketing/cannes-lion-de.html.tmp.tmp’
+
+     0K .......... ..........                                 100% 21,3M=0,001s
+
+2019-02-21 14:58:05 (21,3 MB/s) - ‘mania.marketing/cannes-lion-de.html.tmp.tmp’ saved [21099/21099]
+
+Removing mania.marketing/cannes-lion-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:06--  https://mania.marketing/viadinarica-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21956 (21K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:58:07--  https://mania.marketing/viadinarica-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21956 (21K) [text/html]
+Saving to: ‘mania.marketing/viadinarica-de.html.tmp.tmp’
+
+     0K .......... .......... .                               100% 6,66M=0,003s
+
+2019-02-21 14:58:08 (6,66 MB/s) - ‘mania.marketing/viadinarica-de.html.tmp.tmp’ saved [21956/21956]
+
+Removing mania.marketing/viadinarica-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:09--  https://mania.marketing/vrhunska-video-produkcija-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20678 (20K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:58:10--  https://mania.marketing/vrhunska-video-produkcija-de.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20678 (20K) [text/html]
+Saving to: ‘mania.marketing/vrhunska-video-produkcija-de.html.tmp.tmp’
+
+     0K .......... ..........                                 100% 15,3M=0,001s
+
+2019-02-21 14:58:10 (15,3 MB/s) - ‘mania.marketing/vrhunska-video-produkcija-de.html.tmp.tmp’ saved [20678/20678]
+
+Removing mania.marketing/vrhunska-video-produkcija-de.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:11--  https://mania.marketing/presseclipping.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22730 (22K) [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2019-02-21 14:58:12--  https://mania.marketing/presseclipping.html
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22730 (22K) [text/html]
+Saving to: ‘mania.marketing/presseclipping.html.tmp.tmp’
+
+     0K .......... .......... ..                              100% 1,26M=0,02s
+
+2019-02-21 14:58:12 (1,26 MB/s) - ‘mania.marketing/presseclipping.html.tmp.tmp’ saved [22730/22730]
+
+Removing mania.marketing/presseclipping.html.tmp.tmp.
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:13--  https://mania.marketing/images/custom/header-marketing.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 33671 (33K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/header-marketing.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:14--  https://mania.marketing/images/custom/portfolio/marketing/bonito2-thumbnail.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 147488 (144K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/bonito2-thumbnail.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:15--  https://mania.marketing/images/custom/portfolio/marketing/bonito-thumbnail.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 149816 (146K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/bonito-thumbnail.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:16--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing29.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 78623 (77K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing29.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:18--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing28.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 228744 (223K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing28.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:19--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing27.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 128763 (126K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing27.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:20--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing26.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 36252 (35K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing26.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:21--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing17.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 62457 (61K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing17.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:22--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing18.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45554 (44K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing18.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:23--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing15.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 53148 (52K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing15.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:24--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing5.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 91530 (89K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing5.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:25--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing2.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 49891 (49K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing2.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:26--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing19.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 59518 (58K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing19.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:27--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing22.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 222517 (217K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing22.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:28--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing4.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 84325 (82K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing4.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:30--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing16.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 67216 (66K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing16.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:31--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing24.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 223123 (218K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing24.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:32--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing14.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 75375 (74K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing14.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:33--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing25.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 220381 (215K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing25.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:34--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing1.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 37856 (37K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing1.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:35--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing21.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 218074 (213K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing21.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:36--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing3.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52978 (52K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing3.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:37--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing20.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22372 (22K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing20.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:38--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing2-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 85394 (83K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing2-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:39--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing3-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 99351 (97K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing3-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:41--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing4-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 190550 (186K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing4-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:42--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing5-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 183521 (179K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing5-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:43--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing7-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 228142 (223K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing7-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:44--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing14-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 135910 (133K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing14-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:45--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing15-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 87202 (85K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing15-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:46--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing18-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 108719 (106K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing18-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:47--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing29-big.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 162484 (159K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing29-big.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:48--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing27-big.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 278385 (272K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing27-big.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:49--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing28-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 401560 (392K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing28-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:50--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing16-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 102474 (100K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing16-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:52--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing19-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 101400 (99K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing19-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:53--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing17-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 96816 (95K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing17-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:54--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing22-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 72873 (71K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing22-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:55--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing25-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 74342 (73K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing25-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:56--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing24-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 80985 (79K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing24-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:57--  https://mania.marketing/images/custom/portfolio/marketing/mania-marketing21-big.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 77947 (76K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/mania-marketing21-big.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:58--  https://mania.marketing/images/custom/portfolio/marketing/bonito-marketing-velika.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 314249 (307K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/bonito-marketing-velika.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:58:59--  https://mania.marketing/images/custom/portfolio/marketing/bonito-marketing2-velika.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 259061 (253K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/marketing/bonito-marketing2-velika.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:00--  https://mania.marketing/images/custom/header-video.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 42190 (41K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/header-video.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:01--  https://mania.marketing/images/custom/portfolio/video/video57.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 56492 (55K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video57.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:03--  https://mania.marketing/images/custom/portfolio/video/imlek.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 212247 (207K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/imlek.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:04--  https://mania.marketing/images/custom/portfolio/video/video63.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 222785 (218K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video63.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:05--  https://mania.marketing/images/custom/portfolio/video/video62.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20615 (20K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video62.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:06--  https://mania.marketing/images/custom/portfolio/video/video60.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 36588 (36K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video60.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:07--  https://mania.marketing/images/custom/portfolio/video/video65.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 139984 (137K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video65.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:08--  https://mania.marketing/images/custom/portfolio/video/video53.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 56498 (55K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video53.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:09--  https://mania.marketing/images/custom/portfolio/video/video41.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 79159 (77K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video41.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:10--  https://mania.marketing/images/custom/portfolio/video/tobl-thumbnail.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 156416 (153K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/tobl-thumbnail.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:11--  https://mania.marketing/images/custom/portfolio/video/prointer-thumbnail.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 130693 (128K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/prointer-thumbnail.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:12--  https://mania.marketing/images/custom/portfolio/video/video51.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 58220 (57K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video51.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:14--  https://mania.marketing/images/custom/portfolio/video/video30.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 51177 (50K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video30.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:15--  https://mania.marketing/images/custom/portfolio/video/video56.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 61490 (60K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video56.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:16--  https://mania.marketing/images/custom/portfolio/video/video63.png
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 157748 (154K) [image/png]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video63.png.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:17--  https://mania.marketing/images/custom/portfolio/video/video45.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 77375 (76K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video45.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:18--  https://mania.marketing/images/custom/portfolio/video/video55.jpg
+Reusing existing connection to mania.marketing:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 58482 (57K) [image/jpeg]
+Remote file exists but does not contain any link -- not retrieving.
+
+Removing mania.marketing/images/custom/portfolio/video/video55.jpg.tmp.
+unlink: No such file or directory
+
+Spider mode enabled. Check if remote file exists.
+--2019-02-21 14:59:19--  https://mania.marketing/images/custom/portfolio/video/video64.png
+Reusing existing connecti
