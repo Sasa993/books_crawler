@@ -2,9 +2,7 @@ from bs4 import BeautifulSoup
 import requests, datetime, json
 
 now = datetime.datetime.now().date()
-
-book_counter = 0
-books_list = {}
+# now = datetime.date(2019, 2, 20)
 
 # Python doesn't have a switch-case statement, therefore, I had to create a custom swtich-case function
 def switch_month(x):
@@ -20,15 +18,11 @@ def switch_month(x):
 		'Septembar': '09',
 		'Oktobar': '10',
 		'Novembar': '11',
-		'Decembar': '12'
+		'Decembar': '12',
 	}[x]
 
+# Sending notification via pushbullet
 def send_notification_via_pushbullet(title, body):
-    """ Sending notification via pushbullet.
-        Args:
-            title (str) : title of text.
-            body (str) : Body of text.
-    """
     data_send = {"type": "note", "title": title, "body": body}
  
     ACCESS_TOKEN = 'o.ibjaaNgt1q4UyKJ3Tbpn6e8t9RDVVFlT'
@@ -37,35 +31,44 @@ def send_notification_via_pushbullet(title, body):
     if resp.status_code != 200:
         raise Exception('Something wrong')
 
-source = requests.get('https://megasrbija.com/index.php?board=89.0').text
-soup = BeautifulSoup(source, 'lxml')
+def scrape(link, post_starts_at, subject_name):
+	book_counter = 0
+	books_list = {}
 
-start = soup.find("div", {"id": "messageindex"}).table.tbody
+	source = requests.get(link).text
+	soup = BeautifulSoup(source, 'lxml')
 
-for knjiga in start.find_all("tr")[7:]:
-	lastpost = knjiga.find("td", class_="lastpost windowbg2").text
-	# slicing it to get a date format "year-month-day" so that I could compare it with today's date
-	published_date = str(now.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
+	start = soup.find("div", {"id": "messageindex"}).table.tbody
 
-	if (published_date == str(now)):
-		title = knjiga.find("td", class_="subject windowbg2").div.span.a.text
-		published_time = lastpost.split()[3]
-		link = knjiga.find("td", class_="subject windowbg2").div.span.a['href']
+	for book in start.find_all("tr")[post_starts_at:]:
+		lastpost = book.find("td", class_="lastpost").text
+		# slicing it to get a date format "year-month-day" so that I could compare it with today's date
+		published_date = str(now.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
 
-		books_list[book_counter] = {}
-		books_list[book_counter]['title'] = title
-		books_list[book_counter]['published_date'] = published_date
-		books_list[book_counter]['published_time'] = published_time
-		books_list[book_counter]['link'] = link
+		if (published_date == str(now)):
+			title = book.find("td", class_="subject").div.span.a.text
+			published_time = lastpost.split()[3]
+			link = book.find("td", class_="subject").div.span.a['href']
 
-		book_counter += 1
-	else:
-		break
+			books_list[book_counter] = {}
+			books_list[book_counter]['title'] = title
+			books_list[book_counter]['published_date'] = published_date
+			books_list[book_counter]['published_time'] = published_time
+			books_list[book_counter]['link'] = link
 
-final_message = ""
+			book_counter += 1
+		# else:
+		# 	break
 
-if (book_counter > 0):
-	for x in range(book_counter):
-		final_message += "Book Title: {0} -- uploaded on {1} at {2} ({3}) \n".format(books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
+	final_message = ""
 
-	send_notification_via_pushbullet("There are {0} new audio books added today!".format(book_counter), final_message)
+	if (book_counter > 0):
+		for x in range(book_counter):
+			final_message += "{0} Title: {1} -- uploaded on {2} at {3} ({4}) \n".format(subject_name, books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
+
+		send_notification_via_pushbullet("There are {0} new {1} added today!".format(book_counter, subject_name), final_message)
+
+scrape('https://megasrbija.com/index.php?board=89.0', 7, 'Audio Book')
+scrape('https://megasrbija.com/index.php?board=71.0', 10, 'Domestic Book')
+scrape('https://megasrbija.com/index.php?board=102.0', 6, 'IT Book')
+scrape('https://megasrbija.com/index.php?board=73.0', 5, 'Magazine')
