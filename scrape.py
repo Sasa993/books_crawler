@@ -1,3 +1,4 @@
+#!/usr/bin/python3.6
 from bs4 import BeautifulSoup
 from datetime import date, timedelta
 import requests, json
