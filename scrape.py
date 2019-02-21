@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
-import requests, datetime, json
+from datetime import date, timedelta
+import requests, json
 
-now = datetime.datetime.now().date()
-# now = datetime.date(2019, 2, 20)
+yesterday = date.today() - timedelta(1)
 
 # Python doesn't have a switch-case statement, therefore, I had to create a custom swtich-case function
 def switch_month(x):
@@ -42,10 +42,10 @@ def scrape(link, post_starts_at, subject_name):
 
 	for book in start.find_all("tr")[post_starts_at:]:
 		lastpost = book.find("td", class_="lastpost").text
-		# slicing it to get a date format "year-month-day" so that I could compare it with today's date
-		published_date = str(now.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
+		# slicing it to get a date format "year-month-day" so that I could compare it with yesterday's date
+		published_date = str(yesterday.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
 
-		if (published_date == str(now)):
+		if (published_date == str(yesterday)):
 			title = book.find("td", class_="subject").div.span.a.text
 			published_time = lastpost.split()[3]
 			link = book.find("td", class_="subject").div.span.a['href']
@@ -66,7 +66,7 @@ def scrape(link, post_starts_at, subject_name):
 		for x in range(book_counter):
 			final_message += "{0} Title: {1} -- uploaded on {2} at {3} ({4}) \n".format(subject_name, books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
 
-		send_notification_via_pushbullet("There are {0} new {1} added today!".format(book_counter, subject_name), final_message)
+		send_notification_via_pushbullet("There are {0} new {1}/s added yesterday!".format(book_counter, subject_name), final_message)
 
 scrape('https://megasrbija.com/index.php?board=89.0', 7, 'Audio Book')
 scrape('https://megasrbija.com/index.php?board=71.0', 10, 'Domestic Book')
