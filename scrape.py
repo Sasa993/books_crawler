@@ -19,6 +19,7 @@ def switch_month(x):
 		'Oktobar': '10',
 		'Novembar': '11',
 		'Decembar': '12',
+		'danas': '13'
 	}[x]
 
 # Sending notification via pushbullet
@@ -42,21 +43,23 @@ def scrape(link, post_starts_at, subject_name):
 
 	for book in start.find_all("tr")[post_starts_at:]:
 		lastpost = book.find("td", class_="lastpost").text
-		# slicing it to get a date format "year-month-day" so that I could compare it with yesterday's date
-		published_date = str(yesterday.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
+		# we don't care about today's published books/magazines, so we are avoiding looping through it if 'danas' is available
+		if ("danas" not in lastpost):	
+			# slicing it to get a date format "year-month-day" so that I could compare it with yesterday's date
+			published_date = str(yesterday.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
 
-		if (published_date == str(yesterday)):
-			title = book.find("td", class_="subject").div.span.a.text
-			published_time = lastpost.split()[3]
-			link = book.find("td", class_="subject").div.span.a['href']
+			if (published_date == str(yesterday)):
+				title = book.find("td", class_="subject").div.span.a.text
+				published_time = lastpost.split()[3]
+				link = book.find("td", class_="subject").div.span.a['href']
 
-			books_list[book_counter] = {}
-			books_list[book_counter]['title'] = title
-			books_list[book_counter]['published_date'] = published_date
-			books_list[book_counter]['published_time'] = published_time
-			books_list[book_counter]['link'] = link
+				books_list[book_counter] = {}
+				books_list[book_counter]['title'] = title
+				books_list[book_counter]['published_date'] = published_date
+				books_list[book_counter]['published_time'] = published_time
+				books_list[book_counter]['link'] = link
 
-			book_counter += 1
+				book_counter += 1
 		# else:
 		# 	break
 
@@ -67,6 +70,7 @@ def scrape(link, post_starts_at, subject_name):
 			final_message += "{0} Title: {1} -- uploaded on {2} at {3} ({4}) \n".format(subject_name, books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
 
 		send_notification_via_pushbullet("There are {0} new {1}/s added yesterday!".format(book_counter, subject_name), final_message)
+		# print(final_message)
 
 scrape('https://megasrbija.com/index.php?board=89.0', 7, 'Audio Book')
 scrape('https://megasrbija.com/index.php?board=71.0', 10, 'Domestic Book')
