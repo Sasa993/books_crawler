@@ -1,6 +1,7 @@
 #!/usr/bin/python3.6
 from bs4 import BeautifulSoup
 from datetime import date, timedelta
+from pushbullet import Pushbullet
 import requests, json
 
 yesterday = date.today() - timedelta(1)
@@ -25,13 +26,10 @@ def switch_month(x):
 
 # Sending notification via pushbullet
 def send_notification_via_pushbullet(title, body):
-    data_send = {"type": "note", "title": title, "body": body}
- 
-    ACCESS_TOKEN = 'o.ibjaaNgt1q4UyKJ3Tbpn6e8t9RDVVFlT'
-    resp = requests.post('https://api.pushbullet.com/v2/pushes', data=json.dumps(data_send),
-                         headers={'Authorization': 'Bearer ' + ACCESS_TOKEN, 'Content-Type': 'application/json'})
-    if resp.status_code != 200:
-        raise Exception('Something wrong')
+ 	
+	# pushbullet API
+	pb = Pushbullet('o.PTI7KMMas1RaxyFCpHoucLQyrsBfAtOu')
+	push = pb.push_note(title, body)
 
 def scrape(link, post_starts_at, subject_name):
 	book_counter = 0
