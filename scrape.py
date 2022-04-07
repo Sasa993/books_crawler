@@ -5,7 +5,7 @@ from utils.calendar import convert_to_target_format
 from utils.login import login_to_page
 from utils.pushbullet import send_notification
 
-yesterday = date.today() - timedelta(2)
+yesterday = date.today() - timedelta(7)
 yesterday = convert_to_target_format(yesterday)
 # todo: add logging
 

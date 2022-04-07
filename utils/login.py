@@ -1,5 +1,9 @@
 import mechanicalsoup
 from bs4 import BeautifulSoup
+from settings import (
+    password,
+    username,
+)
 
 def login_to_page(link: str) -> BeautifulSoup:
     """
