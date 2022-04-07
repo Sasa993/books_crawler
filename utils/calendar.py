@@ -1,11 +1,11 @@
 from datetime import date
 
-def convert_to_target_format(teti: date) -> str:
+def convert_to_target_format(tmp_date: date) -> str:
 	"""
 	Convert date into target's date format.
 	"31 Mart 2022"
 	"""
-	return f"{teti.day} {get_month(teti.month)} {teti.year}"
+	return f"{tmp_date.day} {get_month(tmp_date.month)} {tmp_date.year}"
 
 def get_month(x: str) -> int:
 	"""
