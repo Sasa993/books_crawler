@@ -1,77 +1,53 @@
-#!/usr/bin/python3.6
-from bs4 import BeautifulSoup
+#!/usr/bin/python3.8.10
+import mechanicalsoup
 from datetime import date, timedelta
-from pushbullet import Pushbullet
-import requests, json
+from utils.calendar import convert_to_target_format
+from utils.login import login_to_page
+from utils.pushbullet import send_notification
 
 yesterday = date.today() - timedelta(1)
-
-# Python doesn't have a switch-case statement, therefore, I had to create a custom swtich-case function
-def switch_month(x):
-	return {
-		'Januar': '01',
-		'Februar': '02',
-		'Mart': '03',
-		'April': '04',
-		'Maj': '05',
-		'Jun': '06',
-		'Jul': '07',
-		'Avgust': '08',
-		'Septembar': '09',
-		'Oktobar': '10',
-		'Novembar': '11',
-		'Decembar': '12',
-		'danas': '13'
-	}[x]
-
-# Sending notification via pushbullet
-def send_notification_via_pushbullet(title, body):
- 	
-	# pushbullet API
-	pb = Pushbullet('o.PTI7KMMas1RaxyFCpHoucLQyrsBfAtOu')
-	push = pb.push_note(title, body)
+yesterday = convert_to_target_format(yesterday)
+# todo: add logging
 
 def scrape(link, post_starts_at, subject_name):
+	"""
+	Crawl Megasrbija website and collect desired content.
+	Collect only books/magazines that have been published
+	day before - yesterday and use Pushbullet to notify user.
+	"""
 	book_counter = 0
 	books_list = {}
-
-	source = requests.get(link).text
-	soup = BeautifulSoup(source, 'lxml')
-
+	soup = login_to_page(link)
 	start = soup.find("div", {"id": "messageindex"}).table.tbody
 
 	for book in start.find_all("tr")[post_starts_at:]:
-		lastpost = book.find("td", class_="lastpost").text
-		# we don't care about today's published books/magazines, so we are avoiding looping through it if 'danas' is available
-		if ("danas" not in lastpost):	
-			# slicing it to get a date format "year-month-day" so that I could compare it with yesterday's date
-			published_date = str(yesterday.year) + "-" + switch_month(lastpost.split()[1]) + "-" + lastpost.split()[0]
+		lastpost = book.find("td", class_="lastpost").text.split()
+		# avoid looping through today's published books/magazines
+		if ("danas" not in lastpost):
+			published_date = f'{lastpost[0]} {lastpost[1]} {lastpost[2].rstrip(",")}'
 
-			if (published_date == str(yesterday)):
+			if (published_date == yesterday):
 				title = book.find("td", class_="subject").div.span.a.text
-				published_time = lastpost.split()[3]
-				link = book.find("td", class_="subject").div.span.a['href']
-
+				published_time = lastpost[3]
+				book_link = book.find("td", class_="subject").div.span.a['href']
 				books_list[book_counter] = {}
 				books_list[book_counter]['title'] = title
-				books_list[book_counter]['published_date'] = published_date
-				books_list[book_counter]['published_time'] = published_time
-				books_list[book_counter]['link'] = link
-
+				books_list[book_counter]['date'] = published_date
+				books_list[book_counter]['time'] = published_time
+				books_list[book_counter]['link'] = book_link
 				book_counter += 1
-		# else:
-		# 	break
 
-	final_message = ""
-
+	body = ""
 	if (book_counter > 0):
+		title = f"{book_counter} new {subject_name}/s added yesterday\
+			({yesterday})!\n"
 		for x in range(book_counter):
-			final_message += "{0} Title: {1} -- uploaded on {2} at {3} ({4}) \n".format(subject_name, books_list[x]['title'], books_list[x]['published_date'], books_list[x]['published_time'], books_list[x]['link'])
+			body += f"{books_list[x]['title']}\
+				({books_list[x]['link']})\n\n"
 
-		send_notification_via_pushbullet("There are {0} new {1}/s added yesterday!".format(book_counter, subject_name), final_message)
-		# print(final_message)
+		send_notification(title, body)
 
 scrape('https://megasrbija.com/index.php?board=89.0', 7, 'Audio Book')
-scrape('https://megasrbija.com/index.php?board=71.0', 10, 'Domestic Book')
-scrape('https://megasrbija.com/index.php?board=102.0', 6, 'IT Book')
-scrape('https://megasrbija.com/index.php?board=73.0', 5, 'Magazine')
+# scrape('https://megasrbija.com/index.php?board=188.0', 8, 'Domestic Book')
+# scrape('https://megasrbija.com/index.php?board=154.0', 7, 'IT Book') # todo: error
+# scrape('https://megasrbija.com/index.php?board=73.0', 6, 'Magazine')
