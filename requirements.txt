@@ -1,7 +1,4 @@
 beautifulsoup4==4.7.1
-lxml
-pushbullet.py
-requests==2.21.0beautifulsoup4==4.7.1
 certifi==2021.10.8
 chardet==3.0.4
 charset-normalizer==2.0.12
