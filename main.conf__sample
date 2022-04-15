@@ -1,0 +1,12 @@
+# Sample of the main configuration in hjson format.
+
+{
+	megasrbija: {
+		url: https://megasrbija.com/index.php?board=
+		username: ****
+		password: ****
+	}
+	apis: {
+		pushbullet: *********
+	}
+}

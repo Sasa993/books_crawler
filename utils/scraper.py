@@ -1,33 +1,10 @@
-import argparse
-import mechanicalsoup
 from datetime import date, timedelta
-from settings import url
 from utils.calendar import convert_to_target_format
 from utils.login import login_to_page
 from utils.pushbullet import send_notification
 
-book_types = {
-	'audio': '89.0',
-	'domestic': '188.0',
-	'it': '154.0',
-	'magazine': '73.0',
-}
-
-parser = argparse.ArgumentParser(description='Todo todo well todo!')
-
-parser.add_argument(
-	"--type",
-	choices=book_types.keys(),
-	type=str,
-	required=True,
-	help="This is more info."
-)
-args = parser.parse_args()
-full_url = url + book_types[args.type]
-# print(1111, full_url, type(full_url))
-yesterday = date.today() - timedelta(1)
+yesterday = date.today() - timedelta(3)
 yesterday = convert_to_target_format(yesterday)
-# todo: add logging
 
 def scrape(link, post_starts_at, subject_name):
 	"""
@@ -68,8 +45,3 @@ def scrape(link, post_starts_at, subject_name):
 				({books_list[x]['link']})\n\n"
 
 		send_notification(title, body)
-
-scrape(full_url, 5, args.type)
-# scrape('https://megasrbija.com/index.php?board=188.0', 8, 'Domestic Book')
-# scrape('https://megasrbija.com/index.php?board=154.0', 7, 'IT Book') # todo: error
-# scrape('https://megasrbija.com/index.php?board=73.0', 6, 'Magazine')
