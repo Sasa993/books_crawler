@@ -5,11 +5,11 @@ def convert_to_target_format(tmp_date: date) -> str:
 	Convert date into target's date format.
 	"31 Mart 2022"
 	"""
-	return f"{tmp_date.day} {get_month(tmp_date.month)} {tmp_date.year}"
+	return f"{tmp_date.day:02d} {get_month(tmp_date.month)} {tmp_date.year}"
 
 def get_month(x: str) -> int:
 	"""
-	Custom switch-caes statement for months.
+	Custom switch-case statement for months.
 	Since the website that is being crawled uses month names on Serbian,
 	this function is necessary.
 	The 13th month is named 'danas' which means 'today'.
