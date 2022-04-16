@@ -1,23 +1,34 @@
 from datetime import date, timedelta
+import logging
 from utils.calendar import convert_to_target_format
 from utils.login import login_to_page
 from utils.pushbullet import send_notification
+
+logger = logging.getLogger(__file__)
 
 yesterday = date.today() - timedelta(2)
 yesterday = convert_to_target_format(yesterday)
 
 
-def scrape(link, post_starts_at, subject_name):
+def scrape(link, post_starts_at, subject_name) -> None:
     """
     Crawl Megasrbija website and collect desired content.
     Collect only books/magazines that have been published
     day before - yesterday and use Pushbullet to notify user.
     """
+    logger.debug(f"Starting to scrape for {subject_name}; url: {link}")
     book_counter = 0
     books_list = {}
     soup = login_to_page(link)
-    start = soup.find("div", {"id": "messageindex"}).table.tbody
-    # print(222, start)
+    if soup is None:
+        return
+    try:
+        start = soup.find("div", {"id": "messageindex"}).table.tbody
+    except AttributeError:
+        log_msg = "TODO: could not find messageindex or the given table"\
+            " or something similar."
+        logger.error(log_msg)
+        return None
 
     for book in start.find_all("tr")[post_starts_at:]:
         lastpost = book.find("td", class_="lastpost").text.split()

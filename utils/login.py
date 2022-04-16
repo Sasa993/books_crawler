@@ -1,9 +1,12 @@
+import logging
 import mechanicalsoup
 from bs4 import BeautifulSoup
 from settings import (
     password,
     username,
 )
+
+logger = logging.getLogger(__name__)
 
 
 def login_to_page(link: str) -> BeautifulSoup:
@@ -15,7 +18,13 @@ def login_to_page(link: str) -> BeautifulSoup:
         raise_on_404=True,
     )
     browser.open(link)
-    browser.select_form("#main_content_section form")
+    try:
+        browser.select_form("#main_content_section form")
+    except mechanicalsoup.utils.LinkNotFoundError:
+        logger.error("The login form has not been found.")
+        return None
+    # TODO: figure out if there is a way to check if the login was successful
+    # or not and based on that write logs.
     browser['user'] = username
     browser['passwrd'] = password
     browser.submit_selected()

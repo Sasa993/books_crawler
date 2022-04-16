@@ -1,13 +1,18 @@
 import argparse
+import logging
+import logging.config
 from settings import (
     book_types,
     url,
 )
 from utils.scraper import scrape
 
+logging.config.fileConfig(fname='loggers.conf', disable_existing_loggers=False)
+logger = logging.getLogger(__name__)
+
 parser = argparse.ArgumentParser(
     description="""
-        Crawl Megasrbija website and notify user with collected content.
+    Crawl Megasrbija website and notify user with collected content.
     """
 )
 parser.add_argument(
