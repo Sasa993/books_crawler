@@ -1,5 +1,6 @@
-from datetime import date, timedelta
+import argparse
 import logging
+from datetime import date, timedelta
 from utils.calendar import convert_to_target_format
 from utils.login import login_to_page
 from utils.pushbullet import send_notification
@@ -19,7 +20,10 @@ desired_td = {'name': 'td', 'attrs': {'class': 'lastpost'}}
 subject_td = {'name': 'td', 'attrs': {'class': 'subject'}}
 
 
-def scrape(link, subject_name) -> None:
+def scrape(
+    link: str,
+    subject_name: argparse.Namespace,
+) -> None:
     """
     Crawl Megasrbija website and collect desired content.
     Collect only books/magazines that have been published
