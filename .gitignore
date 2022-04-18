@@ -1,4 +1,4 @@
 __pycache__/
-*.conf
+main.conf
 TODO.md
 *.log
