@@ -25,7 +25,4 @@ parser.add_argument(
 args = parser.parse_args()
 full_url = url + book_types[args.type]
 
-scrape(full_url, 8, args.type)
-# scrape('https://megasrbija.com/index.php?board=188.0', 8, 'Domestic Book')
-# scrape('https://megasrbija.com/index.php?board=154.0', 7, 'IT Book')
-# scrape('https://megasrbija.com/index.php?board=73.0', 6, 'Magazine')
+scrape(full_url, args.type)
