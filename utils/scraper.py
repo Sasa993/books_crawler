@@ -66,13 +66,14 @@ def scrape(
 
     body = ""
     if (book_counter > 0):
-        title = f"{book_counter} new {subject_name.title()} book/s added\
-            yesterday ({yesterday})!\n"
+        title = f"{book_counter} new {subject_name.title()} book/s added"\
+            f" yesterday ({yesterday})!\n"
         for x in range(book_counter):
             body += f"{books_list[x]['title']}\
                 ({books_list[x]['link']})\n\n"
         try:
             send_notification(title, body)
-            logger.info("Notification has been sent successfully")
+            logger.info(f"Notification ({subject_name.title()}) has been sent"
+                        " successfully")
         except Exception:
             logger.error("Notification sending failed!")
