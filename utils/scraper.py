@@ -55,12 +55,11 @@ def scrape(
             )
             if (published_date == yesterday):
                 title = book.find(**subject_td).div.span.a.text
-                published_time = lastpost[3]
+                title_tmp = title.split('-', 1)
                 book_link = book.find(**subject_td).div.span.a['href']
                 books_list[book_counter] = {}
-                books_list[book_counter]['title'] = title
-                books_list[book_counter]['date'] = published_date
-                books_list[book_counter]['time'] = published_time
+                books_list[book_counter]['author'] = title_tmp[0]
+                books_list[book_counter]['title'] = title_tmp[1]
                 books_list[book_counter]['link'] = book_link
                 book_counter += 1
 
@@ -69,8 +68,9 @@ def scrape(
         title = f"{book_counter} new {subject_name.title()} book/s added"\
             f" yesterday ({yesterday})!\n"
         for x in range(book_counter):
-            body += f"{books_list[x]['title']}\
-                ({books_list[x]['link']})\n\n"
+            body += f"Author: {books_list[x]['author']}\n"\
+                f"Title: {books_list[x]['title']}\n"\
+                f"Link: ({books_list[x]['link']})\n\n"
         try:
             send_notification(title, body)
             logger.info(f"Notification ({subject_name.title()}) has been sent"
