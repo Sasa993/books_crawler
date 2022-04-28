@@ -1,5 +1,5 @@
 """
-todo: PUSHBULLET with API requests: https://docs.pushbullet.com/
+https://docs.pushbullet.com/
 """
 from pushbullet import Pushbullet
 from settings import pushbullet_api
