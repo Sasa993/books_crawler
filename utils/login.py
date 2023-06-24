@@ -19,7 +19,7 @@ def login_to_page(link: str) -> BeautifulSoup:
     )
     browser.open(link)
     try:
-        browser.select_form("#main_content_section form")
+        browser.select_form("#guest_form")
     except mechanicalsoup.utils.LinkNotFoundError:
         logger.error("The login form has not been found.")
         return None
