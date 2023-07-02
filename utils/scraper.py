@@ -1,5 +1,6 @@
 import argparse
 import logging
+import re
 from datetime import date, timedelta
 from utils.calendar import convert_to_target_format
 from utils.login import login_to_page
@@ -55,7 +56,8 @@ def scrape(
             )
             if (published_date == yesterday):
                 title = book.find(**subject_td).div.span.a.text
-                title_tmp = title.split('-', 1)
+                # the delimiter could be '-' or '–' for now
+                title_tmp = re.split(r"[-–]", title, maxsplit=1)
                 book_link = book.find(**subject_td).div.span.a['href']
                 books_list[book_counter] = {}
                 books_list[book_counter]['author'] = title_tmp[0]
