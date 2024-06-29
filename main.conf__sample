@@ -9,5 +9,6 @@
 	apis: {
 		pushbullet_key: *********
 		drf: *********
+		drf_auth_token: *********
 	}
 }

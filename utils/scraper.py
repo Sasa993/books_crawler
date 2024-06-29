@@ -8,7 +8,7 @@ from utils.pushbullet import send_notification
 
 logger = logging.getLogger(__name__)
 
-yesterday = convert_to_target_format(date.today() - timedelta(1))
+yesterday = convert_to_target_format(date.today() - timedelta(7))  # todo
 main_div = {'name': 'div', 'attrs': {'id': 'messageindex'}}
 undesired_td = {
     'name': 'td',
@@ -122,6 +122,7 @@ def scrape_for_db(
                 books_list[book_counter]['author'] = title_tmp[0]
                 books_list[book_counter]['title'] = title_tmp[1]
                 books_list[book_counter]['link'] = book_link
+                books_list[book_counter]['published_date'] = published_date
                 book_counter += 1
 
     # authors = [item['author'] for item in books_list.values()]

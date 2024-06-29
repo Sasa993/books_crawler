@@ -5,6 +5,7 @@ with open('main.conf', mode='r', encoding='utf-8') as config_file:
 config = hjson.loads(contents_config_file)
 
 api_endpoint = config['apis']['drf']
+api_auth_token = config['apis']['drf_auth_token']
 pushbullet_api = config['apis']['pushbullet_key']
 url = config['megasrbija']['url']
 username = config['megasrbija']['username']
