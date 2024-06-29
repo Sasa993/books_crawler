@@ -8,7 +8,7 @@ from utils.pushbullet import send_notification
 
 logger = logging.getLogger(__name__)
 
-yesterday = convert_to_target_format(date.today() - timedelta(7))  # todo
+yesterday = convert_to_target_format(date.today() - timedelta(1))
 main_div = {'name': 'div', 'attrs': {'id': 'messageindex'}}
 undesired_td = {
     'name': 'td',
