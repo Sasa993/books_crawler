@@ -120,7 +120,7 @@ def scrape_for_db(
     books_list = {}
 
     if all_dates:
-        page_offset = 3834
+        page_offset = 0
         last_page_offset = 5000
         while page_offset < last_page_offset:
             current_link = f"{link[:-2]}.{page_offset}"
@@ -129,7 +129,7 @@ def scrape_for_db(
             if soup is None:
                 break
 
-            if page_offset == 3834:
+            if page_offset == 0:
                 last_page_link = soup.find(**pagination_pagesection).div
                 last_page_number = int(
                     last_page_link.find_all('a', class_='navPages')[-1].text
