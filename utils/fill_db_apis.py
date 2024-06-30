@@ -1,10 +1,10 @@
 import requests
 import logging
 
-from datetime import datetime
 from typing import Any, Dict
 
 from settings import api_endpoint, api_auth_token
+from utils.calendar import parse_serbian_date
 
 
 HEADERS = {
@@ -77,20 +77,30 @@ def fill_books(
     """
     Fill db with books.
     """
-    pd = datetime.strptime(published_date, '%d %b %Y')
-    book_data = {
-        "author": author_id,
-        "book_type": book_type_id,
-        "link": link,
-        "name": book_name,
-        "published_date": pd.strftime('%Y-%m-%d'),
-    }
-    response = requests.post(
-        f"{api_endpoint}/books/",
-        headers=HEADERS,
-        data=book_data
-    )
-    handle_api_response('book', book_data, response, "Book created successfully.")
+
+    try:
+        parsed_date = parse_serbian_date(published_date)
+        # pd = datetime.strptime(published_date, '%d %b %Y')
+        book_data = {
+            "author": author_id,
+            "book_type": book_type_id,
+            "link": link,
+            "name": book_name,
+            "published_date": parsed_date.strftime('%Y-%m-%d'),
+        }
+        response = requests.post(
+            f"{api_endpoint}/books/",
+            headers=HEADERS,
+            data=book_data
+        )
+        handle_api_response(
+            'book',
+            book_data,
+            response,
+            "Book created successfully."
+        )
+    except ValueError as e:
+        print(f"Date parsing error: {e}")
 
 
 def fill_db(books_list: dict, book_type: int) -> None:
@@ -99,4 +109,10 @@ def fill_db(books_list: dict, book_type: int) -> None:
     """
     for book in books_list.values():
         author_id = fill_authors(book['author'])
-        fill_books(author_id, book_type, book['link'], book['title'], book['published_date'])
+        fill_books(
+            author_id,
+            book_type,
+            book['link'],
+            book['title'],
+            book['published_date']
+        )

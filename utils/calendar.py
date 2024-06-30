@@ -1,4 +1,20 @@
-from datetime import date
+from datetime import date, datetime
+
+
+SERBIAN_MONTHS = {
+    'Januar': 'January',
+    'Februar': 'February',
+    'Mart': 'March',
+    'April': 'April',
+    'Maj': 'May',
+    'Jun': 'June',
+    'Jul': 'July',
+    'Avgust': 'August',
+    'Septembar': 'September',
+    'Oktobar': 'October',
+    'Novembar': 'November',
+    'Decembar': 'December'
+}
 
 
 def convert_to_target_format(tmp_date: date) -> str:
@@ -31,3 +47,12 @@ def get_month(x: str) -> int:
         12: 'Decembar',
         13: 'danas'
     }[x]
+
+
+def parse_serbian_date(date_str: str):
+    """
+    todo
+    """
+    for serbian_month, english_month in SERBIAN_MONTHS.items():
+        date_str = date_str.replace(serbian_month, english_month)
+    return datetime.strptime(date_str, '%d %B %Y')

@@ -20,7 +20,7 @@ def scrape_bullet(args):
 
 def scrape_fill_db(args):
     full_url = url + book_types[args.type]
-    books_list = scrape_for_db(full_url, args.type)
+    books_list = scrape_for_db(full_url, args.type, all_dates=args.all_dates)
     fill_db(books_list, book_types_api[args.type])
 
 
@@ -45,10 +45,14 @@ parser_scrape_fill_db.add_argument(
     'type',
     choices=book_types.keys(),
     type=str,
-    help="Select the type of book you would like to scrape for authors.",
+    help="Select the type of book you would like to scrape for.",
+)
+parser_scrape_fill_db.add_argument(
+    '--all_dates',
+    action='store_true',
+    help="If set, scrape for all dates."
 )
 parser_scrape_fill_db.set_defaults(func=scrape_fill_db)
-
 
 args = parser.parse_args()
 args.func(args)
