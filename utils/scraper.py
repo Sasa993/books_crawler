@@ -157,7 +157,6 @@ def scrape_for_db(
                     published_date
                 )
                 book_counter += 1
-
             page_offset += 27
     else:
         soup = login_to_page(link)

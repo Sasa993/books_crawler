@@ -14,21 +14,26 @@ HEADERS = {
 logging.basicConfig(level=logging.INFO)
 
 
-def get_existing_item_id(item: str, item_data: Dict[str, Any]) -> int:
+def get_existing_author_id(author_name: str) -> int:
     """
     todo
     """
     response = requests.get(
-        f"{api_endpoint}/{item}s/",
+        f"{api_endpoint}/authors/",
         headers=HEADERS,
-        params={'name': item_data.get('name')}
+        params={'name': author_name}
     )
-    return response.json()[0]['id']
+    # testic = response.json([0]).pop()
+    testic = next(
+        (item['id'] for item in response.json() if item['name'] == author_name),
+        None
+    )
+    print("testic: ", testic)
+    # return response.json()[0]['id']
+    return testic
 
 
 def handle_api_response(
-    item: str,
-    item_data: Dict[str, Any],
     response: requests.Response,
     success_msg: str
 ) -> None:
@@ -41,10 +46,7 @@ def handle_api_response(
     elif response.status_code == 400:
         # Check if the response contains validation errors
         error_response = response.json()
-        if 'name' in error_response and f'{item} with this name already exists.' in error_response['name']:
-            # Item already exists, fetch the existing item ID instead
-            existing_item_id = get_existing_item_id(item, item_data)
-            return existing_item_id
+        logging.error("FAILED: ", error_response)
     else:
         logging.error("API request failed with "
                       f"status code {response.status_code}")
@@ -57,14 +59,29 @@ def fill_authors(author_name: str) -> int:
     """
     Fill db with authors.
     """ 
-    author_data = {"name": author_name}
     response = requests.post(
         f"{api_endpoint}/authors/",
         headers=HEADERS,
-        data=author_data
+        data={"name": author_name}
     )
-    handle_api_response('author', author_data, response, "Author created successfully.")
-    return response.json().get('id')
+
+    if response.status_code == 201:
+        # Item was created successfully
+        logging.info("Author created successfully.")
+        return response.json().get('id')
+    elif response.status_code == 400:
+        # Check if the response contains validation errors
+        error_response = response.json()
+        if 'author with this name already exists.' in error_response['name']:
+            # Item already exists, fetch the existing item ID instead
+            existing_item_id = get_existing_author_id(author_name)
+            return existing_item_id
+    else:
+        logging.error("API request failed with "
+                      f"status code {response.status_code}")
+        logging.error(response.text)
+        # Raise an exception for non-2xx status codes
+        response.raise_for_status()
 
 
 def fill_books(
@@ -80,7 +97,6 @@ def fill_books(
 
     try:
         parsed_date = parse_serbian_date(published_date)
-        # pd = datetime.strptime(published_date, '%d %b %Y')
         book_data = {
             "author": author_id,
             "book_type": book_type_id,
@@ -93,14 +109,22 @@ def fill_books(
             headers=HEADERS,
             data=book_data
         )
-        handle_api_response(
-            'book',
-            book_data,
-            response,
-            "Book created successfully."
-        )
+
+        if response.status_code == 201:
+            # Item was created successfully
+            logging.info("Book created successfully.")
+        elif response.status_code == 400:
+            # Check if the response contains validation errors
+            error_response = response.json()
+            logging.error("FAILED: ", error_response)
+        else:
+            logging.error("API request failed with "
+                          f"status code {response.status_code}")
+            logging.error(response.text)
+            # Raise an exception for non-2xx status codes
+            response.raise_for_status()
     except ValueError as e:
-        print(f"Date parsing error: {e}")
+        logging.error(f"Date parsing error: {e}")
 
 
 def fill_db(books_list: dict, book_type: int) -> None:
