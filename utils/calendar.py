@@ -49,10 +49,22 @@ def get_month(x: str) -> int:
     }[x]
 
 
-def parse_serbian_date(date_str: str):
+def parse_serbian_date(date_str: str) -> datetime:
     """
-    todo
+    Parse a Serbian date string into a `datetime` object with the
+    format '%d %B %Y'.
+
+    If the string 'danas' (meaning 'today' in Serbian) is present, it will
+    be replaced with today's date in the format '%d %B %Y'.
+
+    :param date_str: The date string in Serbian to be parsed. It may contain
+    'danas' to represent today's date.
+
+    :return: A parsed date.
     """
+    if 'danas' in date_str:
+        date_str = datetime.today().strftime('%d %B %Y')
+
     for serbian_month, english_month in SERBIAN_MONTHS.items():
         date_str = date_str.replace(serbian_month, english_month)
     return datetime.strptime(date_str, '%d %B %Y')

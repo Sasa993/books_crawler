@@ -1,7 +1,7 @@
 import requests
 import logging
 
-from typing import Any, Dict
+from typing import Optional
 
 from settings import api_endpoint, api_auth_token
 from utils.calendar import parse_serbian_date
@@ -18,47 +18,44 @@ def get_existing_author_id(author_name: str) -> int:
     """
     todo
     """
-    response = requests.get(
-        f"{api_endpoint}/authors/",
-        headers=HEADERS,
-        params={'name': author_name}
-    )
-    # testic = response.json([0]).pop()
-    testic = next(
-        (item['id'] for item in response.json() if item['name'] == author_name),
-        None
-    )
-    print("testic: ", testic)
-    # return response.json()[0]['id']
-    return testic
+    try:
+        response = requests.get(
+            f"{api_endpoint}/authors/",
+            headers=HEADERS,
+            params={'name': author_name}
+        )
+        author_id = next(
+            (item['id'] for item in response.json() if item['name'] == author_name),  # noqa: E501
+            None
+        )
+        return author_id
+    except Exception:
+        return None
 
 
-def handle_api_response(
-    response: requests.Response,
-    success_msg: str
-) -> None:
+def get_existing_book_id(author_name: str) -> int:
     """
-    Handle API response dynamically.
+    todo
     """
-    if response.status_code == 201:
-        # Item was created successfully
-        logging.info(success_msg)
-    elif response.status_code == 400:
-        # Check if the response contains validation errors
-        error_response = response.json()
-        logging.error("FAILED: ", error_response)
-    else:
-        logging.error("API request failed with "
-                      f"status code {response.status_code}")
-        logging.error(response.text)
-        # Raise an exception for non-2xx status codes
-        response.raise_for_status()
+    try:
+        response = requests.get(
+            f"{api_endpoint}/authors/",
+            headers=HEADERS,
+            params={'name': author_name}
+        )
+        author_id = next(
+            (item['id'] for item in response.json() if item['name'] == author_name),  # noqa: E501
+            None
+        )
+        return author_id
+    except Exception:
+        return None
 
 
-def fill_authors(author_name: str) -> int:
+def fill_authors(author_name: str) -> Optional[int]:
     """
     Fill db with authors.
-    """ 
+    """
     response = requests.post(
         f"{api_endpoint}/authors/",
         headers=HEADERS,
@@ -72,10 +69,15 @@ def fill_authors(author_name: str) -> int:
     elif response.status_code == 400:
         # Check if the response contains validation errors
         error_response = response.json()
-        if 'author with this name already exists.' in error_response['name']:
+        if (
+            'name' in error_response and
+            'author with this name already exists.' in error_response['name']
+        ):
             # Item already exists, fetch the existing item ID instead
+            logging.warn(f'Author {author_name} already exists.')
             existing_item_id = get_existing_author_id(author_name)
             return existing_item_id
+        return None
     else:
         logging.error("API request failed with "
                       f"status code {response.status_code}")
@@ -94,7 +96,6 @@ def fill_books(
     """
     Fill db with books.
     """
-
     try:
         parsed_date = parse_serbian_date(published_date)
         book_data = {
@@ -114,9 +115,7 @@ def fill_books(
             # Item was created successfully
             logging.info("Book created successfully.")
         elif response.status_code == 400:
-            # Check if the response contains validation errors
-            error_response = response.json()
-            logging.error("FAILED: ", error_response)
+            logging.warn("Found some books duplicates. Skipping over them.")
         else:
             logging.error("API request failed with "
                           f"status code {response.status_code}")
